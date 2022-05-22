@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "blockmover",
+  "id": "persistfoodlevel",
   "version": "${version}",
 
-  "name": "Block Mover Mod",
-  "description": "This mod will move blocks in the world.  It is a training exercise.",
+  "name": "Player Food Level Persistence Mod",
+  "description": "Player food level will persist after death and respawn.",
   "authors": [
     "Oak Table"
   ],
