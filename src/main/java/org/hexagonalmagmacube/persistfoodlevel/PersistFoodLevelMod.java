@@ -1,18 +1,17 @@
-package org.hexagonalmagmacube.blockmover;
+package org.hexagonalmagmacube.persistfoodlevel;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 
 // Question: Use import net.minecraft.server.network.ServerPlayerEntity; instead of
-// import net.minecraft.server.level.ServerPlayer;
+//import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.network.ServerPlayerEntity;
 //import net.minecraft.world.damagesource.DamageSource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class BlockMoverMod implements ModInitializer {
+public class PersistFoodLevelMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.

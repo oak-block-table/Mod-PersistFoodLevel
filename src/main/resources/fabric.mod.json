@@ -10,7 +10,7 @@
   ],
   "contact": {
     "homepage": "none",
-    "sources": "https://github.com/Oak-block-table/TBD"
+    "sources": "https://github.com/Oak-block-table/Mod-PersistFoodLevel"
   },
 
   "license": "mit",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.hexagonalmagmacube.blockmover.BlockMoverMod"
+      "org.hexagonalmagmacube.persistfoodlevel.PersistFoodLevelMod"
     ]
   },
   "mixins": [
-    "blockmover.mixins.json"
+    "persistfoodlevel.mixins.json"
   ],
 
   "depends": {
